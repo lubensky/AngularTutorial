@@ -1,5 +1,4 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
 import { ProductAlertsComponent } from './product-alerts.component';
 
 describe('ProductAlertsComponent', () => {
@@ -8,9 +7,8 @@ describe('ProductAlertsComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ProductAlertsComponent ]
-    })
-    .compileComponents();
+      declarations: [ProductAlertsComponent],
+    }).compileComponents();
 
     fixture = TestBed.createComponent(ProductAlertsComponent);
     component = fixture.componentInstance;
